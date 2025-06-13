@@ -105,45 +105,88 @@ function createCardsWithDateValidation(cardsData) {
 const cardsToCreate = [
   {
     title: "Inverno São Paulo",
-    date: "22/06/2025",
+    date: "29/06/2025",
     buttonText: "INSCREVA-SE",
     isActive: true,
-    link: "https://www.runningland.com.br/calendario?page=1",
+    link: "https://runningland.com.br/circuito-das-estacoes-inverno-s-o-paulo",
+    buttonText: "INSCREVA-SE"
   },
   {
-    title: "Inverno Rio de Janeiro",
-    date: "15/07/2025",
+    title: "Inverno Belo Horizonte",
+    date: "13/07/2025",
     isActive: false,
-    link: "https://www.runningland.com.br/calendario?page=1",
+    link: "https://runningland.com.br/circuito-das-estacoes-2025-inverno-belo-horizonte",
     buttonText: "INSCREVA-SE"
 
   },
   {
     title: "Inverno Brasília",
-    date: "01/08/2025",
+    date: "29/06/2025",
     isActive: true,
-    link:"https://runningland.com.br/circuito-das-estacoes-2025-inverno-brasilia",
+    link:"https://www.runningland.com.br/circuito-das-estacoes-2025-inverno-brasilia",
     buttonText: "INSCREVA-SE"
 
   },
   {
-    title: "Inverno Belo Horizonte",
-    date: "15/03/2025",
+    title: "Inverno Salvador",
+    date: "20/07/2025",
     isActive: true,
-    link:"https://runningland.com.br/circuito-das-estacoes-2025-inverno-belo-horizonte",
+    link:"https://www.runningland.com.br/circuito-das-estacoes-2025-inverno-salvador",
     buttonText: "INSCREVA-SE"
 
+  },
+  {
+    title: "Inverno Recife",
+    date: "06/07/2025",
+    isActive: true,
+    link:"https://www.runningland.com.br/circuito-das-estacoes-2025-inverno-recife",
+    buttonText: "INSCREVA-SE"
+  },
+  {
+    title: "Inverno Fortaleza",
+    date: "29/06/2025",
+    isActive: true,
+    link: "https://runningland.com.br/circuito-das-estacoes-2025-inverno-fortaleza",
+    buttonText: "INSCREVA-SE"
   },
   {
     title: "Inverno Curitiba",
-    date: "30/07/2025",
+    date: "20/07/2025",
     isActive: true,
-    link:"https://runningland.com.br/circuito-das-estacoes-2025-inverno-curitiba",
+    link: "https://www.runningland.com.br/circuito-das-estacoes-2025-inverno-curitiba",
+    buttonText: "INSCREVA-SE"
+  },
+  {
+    title: "Inverno Jacobina",
+    date: "27/07/2025",
+    isActive: true,
+    link: "https://www.runningland.com.br/circuito-das-estacoes-2025-inverno-jacobina",
+    buttonText: "INSCREVA-SE"
+  },
+  {
+    title: "Inverno Belém",
+    date: "15/06/2025",
+    isActive: true,
+    link: "https://www.runningland.com.br/circuito-das-estacoes-2025-inverno-belem",
+    buttonText: "INSCREVA-SE"
+  },
+  {
+    title: "Inverno Goiânia",
+    date: "15/06/2025",
+    isActive: true,
+    link: "https://www.runningland.com.br/circuito-das-estacoes-2025-inverno-goiania",
+    buttonText: "INSCREVA-SE"
+  },
+  {
+    title: "Inverno Manaus",
+    date: "15/06/2025",
+    isActive: true,
+    link: "https://www.runningland.com.br/circuito-das-estacoes-2025-inverno-manaus",
     buttonText: "INSCREVA-SE"
   },
   {
     title: "Inverno Porto Alegre",
-    date: "22/07/2025",
+    date: "15/06/2025",
     isActive: true,
     link: "https://www.runningland.com.br/circuito-das-estacoes-2025-inverno-poa",
     buttonText: "INSCREVA-SE"
